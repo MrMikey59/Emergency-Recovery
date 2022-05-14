@@ -9,3 +9,9 @@ Create a USB Stick Recovery Kit with the following installed portable apps:
 - [Piraform CCleaner](www.piriform.com/ccleaner/builds) – check/clean system files; use analyze to free up extra space and improve performance
 - [Piriform Recuva](www.piriform.com/recuva) – recover lost files before they are overwritten free up extra space and improve performance
 
+## Google 
+
+[Google Password Manager](https://passwords.google.com/)
+```html
+<a href="https://passwords.google.com/"  target="_blank">Review Your Google Stored Passwords</a>
+```
