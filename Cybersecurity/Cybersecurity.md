@@ -68,12 +68,13 @@ In addition to turning off virtual assistant apps like Siri and “Hey Google,�
 - To disable microphone access on Android devices, navigate to Settings > Applications > Applications Manager > [a specific application] > Permissions, and then select “Turn Off the mic.” 
 
 #### Terminology 
-| Terminology | Description | 
-| --- | --- |  
+| Terminology | Description | Source |
+| --- | --- | --- |  
+| Botnet | a collection of internet-connected devices which may include computers (private or public), servers, mobile devices, or internet of things (IoT; refrigerators, alarms systems, media players) infected with malicious software and controlled as a group without the owner’s knowledge to perform cyberattacks or various scams. | IT, Malware |  
 | Exploit Kits | Exploit kits (EKs) are computer programs designed to find flaws, weaknesses or mistakes in software apps and use them to gain access into a system or a network. |  
 | Misconfiguration | Simply failing to validate your security or privacy settings in apps such as video conferencing could potentially expose your chats to eavesdroppers. |  
 | Password Sniffing | This is a tactic used by cyber criminals to harvest passwords. They do this through monitoring and snooping in on network traffic to retrieve password data. |  
-| Phishing | used to steal sensitive information (credit card data, usernames, and passwords, etc.) from users. The attackers pretend to be a trustworthy entity (usually by copying the look and feel of a big brand) to trick the victims into revealing their confidential data. |  
+| Phishing | used to steal sensitive information (credit card data, usernames, and passwords, etc.) from users. The attackers pretend to be a trustworthy entity (usually by copying the look and feel of a big brand) to trick the victims into revealing their confidential data; a technique for attempting to acquire sensitive data, such as bank account numbers, SSN, date of birth, etc. through a fraudulent solicitation in e-mail, SMS text, or on a web site, in which the perpetrator masquerades as a legitimate business or reputable person. | IT, Malware |  
 | Vulnerabilities | Humans are fallible, and so is their code. Check your devices to ensure they are up to date with their security patches and/or firmware from trusted sources. |  
 | Zero Trust | a foundational security tenet that no actor, system, network or service operating outside or within the security perimeter should be trusted automatically |  
 
