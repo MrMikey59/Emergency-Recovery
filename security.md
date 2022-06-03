@@ -1,82 +1,13 @@
-The world is a scary place, and everyone's out to get you.
-
-- [Computer Systems Security (https://css.csail.mit.edu/6.858/)
-- [Cryptography 1](https://courses.csail.mit.edu/6.857/)
-- [Cryptography 2](https://courses.csail.mit.edu/6.875/)
-- [Roll Your Own Crypto](https://www.schneier.com/blog/archives/2015/05/amateurs_produc.html)
-
-Okay, maybe not, but that doesn't mean you want to flaunt all your
-secrets. Security (and privacy) is generally all about raising the bar
-for attackers. Find out what your threat model is, and then design your
-security mechanisms around that! If the threat model is the NSA or
-Mossad, you're _probably_ going to have a bad time.
-
-There are _many_ ways to make your technical persona more secure. We'll
-touch on a lot of high-level things here, but this is a process, and
-educating yourself is one of the best things you can do. 
-
-## General Security Advice
-
-Tech Solidarity has a pretty great list of [do's and don'ts for
-journalists](https://techsolidarity.org/resources/basic_security.htm)
-that has a lot of sane advice, and is decently up-to-date. [@thegrugq](https://medium.com/@thegrugq)
-also has a good blog post on [travel security
-advice](https://medium.com/@thegrugq/stop-fabricating-travel-security-advice-35259bf0e869)
-that's worth reading. We'll repeat much of the advice from those sources
-here, plus some more. Also, get a [USB data
-blocker](https://www.amazon.com/dp/B00QRRZ2QM/), because [USB is
-scary](https://www.bleepingcomputer.com/news/security/heres-a-list-of-29-different-types-of-usb-attacks/).
-
-## Authentication
-
-The very first thing you should do, if you haven't already, is download
-a password manager. Some good ones are:
-
- - [1password](https://1password.com/)
- - [KeePass](https://keepass.info/)
- - [BitWarden](https://bitwarden.com/)
- - [`pass`](https://www.passwordstore.org/)
-
-If you're particularly paranoid, use one that encrypts the passwords
-locally on your computer, as opposed to storing them in plain-text at
-the server. Use it to generate passwords
-for all the web sites you care about right now. Then, switch on
-two-factor authentication, ideally with a
-[FIDO/U2F](https://fidoalliance.org/) dongle (a
-[YubiKey](https://www.yubico.com/quiz/) for example, which has [20% off
-for students](https://www.yubico.com/why-yubico/for-education/)). TOTP
-(like Google Authenticator or Duo) will also work in a pinch, but
-[doesn't protect against
-phishing](https://twitter.com/taviso/status/1082015009348104192). SMS is
-pretty much useless unless your threat model only includes random
-strangers picking up your password in transit.
-
-Also, a note about paper keys. Often, services will give you a "backup
-key" that you can use as a second factor if you lose your real second
-factor (btw, always keep a backup dongle somewhere safe!). While you
-_can_ stick those in your password managers, that means that should
-someone get access to your password manager, you're totally hosed (but
-maybe you're okay with that thread model). If you are truly paranoid,
-print out these paper keys, never store them digitally, and place them
-in a safe in the real world.
 
 ## Private Communication
 
-Use [Signal](https://www.signal.org/) ([setup
-instructions](https://medium.com/@mshelton/signal-for-beginners-c6b44f76a1f0).
-[Wire](https://wire.com/en/) is [fine
-too](https://www.securemessagingapps.com/); WhatsApp is okay; [don't use
-Telegram](https://twitter.com/bascule/status/897187286554628096)).
-Desktop messengers are pretty broken (partially due to usually relying
-on Electron, which is a huge trust stack).
+Use 
+- [Signal](https://www.signal.org/) ([setup
+instructions](https://medium.com/@mshelton/signal-for-beginners-c6b44f76a1f0)
+- [Wire](https://wire.com/en/) is [fine too](https://www.securemessagingapps.com/); 
+- WhatsApp is okay; [don't use Telegram](https://twitter.com/bascule/status/897187286554628096)).
 
-E-mail is particularly problematic, even if PGP signed. It's not
-generally forward-secure, and the key-distribution problem is pretty
-severe. [keybase.io](https://keybase.io/) helps, and is useful for a
-number of other reasons. Also, PGP keys are generally handled on desktop
-computers, which is one of the least secure computing environments.
-Relatedly, consider getting a Chromebook, or just work on a tablet with
-a keyboard.
+E-mail is particularly problematic, even if PGP signed. It's not generally forward-secure, and the key-distribution problem is pretty severe. [keybase.io](https://keybase.io/) helps, and is useful for a number of other reasons. Also, PGP keys are generally handled on desktop computers, which is one of the least secure computing environments.
 
 ## File Security
 
